@@ -120,7 +120,7 @@ a:hover {
     border-radius: 20px;
     width: 10rem;
     padding: .25rem;
-    margin-bottom: 2rem;;
+    margin-bottom: 2rem;
 }
 
 h2 {
@@ -132,5 +132,77 @@ h2 {
 .appreciation {
     color: hsl(217, 12%, 63%);
     width: 21rem;
-    margin: 1rem 0 0;
+    margin: .5rem 0 0;
+    line-height: 25px;
+}
+
+@media(max-width: 375px) {
+
+    body {
+        font-size: 14px;
+    }
+    
+    .rating {
+        width: 325px;
+        min-height: 325px;
+    }
+    
+    #star {
+        width: 37.5px;
+        height: 37.5px;
+        padding: .75rem;
+        background-color: hsl(213, 19%, 18%);
+        border-radius: 50%;
+        margin: 1.5rem 0 1.5rem 1.5rem;
+    }
+    
+    h1 {
+        font-size: 23px;
+        margin: 0 0 1rem 1.5rem;
+    }
+    
+    .rating p {
+        margin: 0 1.2rem 1.5rem 1.4rem;
+        line-height: 23px;
+    }
+    
+    .numbers {
+        margin: 0 0 1.5rem 1.4rem;
+    }
+    
+    .number {
+        width: 45px;
+        height: 45px;
+        margin-right: 1rem
+    }
+    
+    a {
+        width: 17rem;
+    }
+    
+    .thank-you {
+        width: 325px;
+        min-height: 325px;
+    }
+    
+    .thank-you img {
+        width: 150px;
+        margin: 2rem 0 1.25rem;
+    }
+    
+    .selection {
+        margin-bottom: 1.75rem;;
+    }
+    
+    h2 {
+        font-size: 23px;
+        font-weight: 400;
+    }
+    
+    .appreciation {
+        width: 18rem;
+        margin: .75rem 0 2.25rem;
+    }
+
+
 }
